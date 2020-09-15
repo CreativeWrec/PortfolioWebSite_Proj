@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+    font;
+    color: black;
+}
+h1
+{
+    color: black;
+}
+h2
+{
+    color: black;
+}
+p
+{
+    color: black;
+}
+ul
+{
+    color: black;
+}
+.banner
+{
+     height: 100vh;
+     position: relative;
+}
+.slider
+{
+    width: 93%;
+    float: left;
+}
+.carousel-caption
+{
+    max-height: 350px !important; 
+    max-width: 500px !important;
+    text-align: right !important;
+    right: 60px;
+    left: auto !important;
+    top: 160px !important;
+}
+.carousel-caption h1
+{
+     font-size: 70px;
+}
+.carousel-caption p
+{
+    margin-top: 40px;
+}
+.side-menu
+{
+    height: 100%;
+    width: 7%;
+    float: right;
+    background-color:#b323b3;
+    z-index: 2;
+}
+.menu-icon
+{
+    width: 40px;
+    margin: 25px;
+    cursor: pointer;
+}
+.email-icon
+{
+    width: 40px;
+    margin: 25px;
+    cursor: pointer;
+}
+.twitter-icon
+{
+    width: 40px;
+    margin: 25px;
+    cursor: pointer;
+}
+.discord-icon
+{
+    width: 40px;
+    margin: 25px;
+    cursor: pointer;
+}
+.side-menu::after
+{
+    content: '';
+    width: 1px;
+    height: 130px;
+    background: rgb(0, 0, 0);
+    left: 45px;
+    top: 200px;
+    position: absolute;
+}
+.carousel-slider
+{
+    left: 85% !important;
+    height: 40% !important;
+    width: 95px !important;
+    top: 55% !important;
+    display: block !important;
+    color: #fff;
+}
+.carousel-indicators li
+{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin-left: 15px !important;
+    background: transparent !important;
+    border: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
